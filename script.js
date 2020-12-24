@@ -91,7 +91,7 @@ const runTime = () => {
 
 const getWeatherGif = async (keyword) => {
     inputLocation.innerHTML = `loading...`;
-    icon.src = 'images/loading_gif.svg';
+    icon.src = '/images/loading_gif.svg';
 
     const apiKey = 'GDinKv88iJ6Uj6Sf7cxqBEMM5URrjrGl';
     const giphyURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keyword}&limit=25&offset=0&rating=g&lang=en`
