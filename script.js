@@ -2,6 +2,7 @@
 const searchInput = document.getElementById('search-input');
 const searchBtn = document.getElementById('search-btn');
 const content = document.getElementById('content');
+const unitToggle = document.getElementById('unit-toggle');
 
 // CONTENT ELEMENTS
 const inputLocation = document.getElementById('location');
@@ -19,7 +20,7 @@ const url = `https://api.openweathermap.org/data/2.5/weather`
 
 
 // OPTIONS
-const units = 'metric';
+let units = 'metric';
 
 const getWeatherData = async (searchURL) => {
     const response = await fetch(searchURL, { mode: 'cors' });
@@ -79,6 +80,17 @@ document.addEventListener('keydown', e => {
     if (e.code === 'Enter') loadWeather();
 })
 
+unitToggle.addEventListener('change', () => {
+    if (unitToggle.checked) {
+        units = 'imperial';
+    } else {
+        units = 'metric';
+    }
+
+    loadWeather();
+})
+
+
 const runTime = () => {
     setInterval(() => {
         const currtime = new Date();
@@ -91,8 +103,8 @@ const runTime = () => {
 
 const getWeatherGif = async (keyword) => {
     inputLocation.innerHTML = `loading...`;
-    icon.src = 'images/loading_gif.svg';
-    
+    icon.src = 'images/loading_gif_small.svg';
+
 
     const apiKey = 'GDinKv88iJ6Uj6Sf7cxqBEMM5URrjrGl';
     const giphyURL = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${keyword}&limit=25&offset=0&rating=g&lang=en`

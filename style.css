@@ -140,9 +140,71 @@ button {
     place-self: center;
 }
 
-#time {
+#bottom-section {
     display: flex;
-    margin: 0 auto;
-    justify-content: flex-end;
-    margin-top: 25px;
+    justify-content: space-between;
+    margin-top: 30px;
 }
+
+#time {
+    align-self: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: rgba(255, 255, 255, .8);
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  .celsius-label {
+      position: absolute;
+      top: 25%;
+      left: 20%;
+      z-index: 10;
+      opacity: .6;
+  }
+
+  .farenheit-label {
+      position: absolute;
+      top: 25%; 
+      right: 20%;
+      z-index: 10;
+      opacity: .6;
+  }

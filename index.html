@@ -15,7 +15,7 @@
         </div>
         <h2 id="location">Loading...</h2>
         <div id="icon-temp-container">
-            <img id="weather-icon" src="images/loading_gif.svg" alt="weather gif">
+            <img id="weather-icon" src="images/loading_gif_small.svg" alt="weather gif">
             <p id="main-temp">13c</p>
         </div>
         <div id="temperatures">
@@ -36,9 +36,19 @@
             </div>
         </div>
 
-        <div id="time">
-            <p>12:00:00</p>
+        <div id="bottom-section">
+            <div>
+                <label class="switch">
+                    <p class="celsius-label">C</p>
+                    <p class="farenheit-label">F</p>
+                    <input id="unit-toggle" type="checkbox">
+                    <span class="slider"></span>
+                  </label>
+            </div>
+            
+            <div id="time"></div>
         </div>
+
     </div>
     <script src="script.js"></script>
 </body>

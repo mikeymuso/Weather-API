@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.019" height="34.699" viewBox="0 0 71.019 34.699">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#afcaff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.776"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_7" data-name="Group 7" transform="translate(-4.586 -23.762)">
+    <path id="Path_1" data-name="Path 1" d="M864,593.3H846a17.038,17.038,0,0,0-10.756,3.477A17.39,17.39,0,0,0,829.087,610a17.648,17.648,0,0,0,4,10.859c4.747,6.023,12.916,6.089,12.916,6.089h37s6.288.375,11.792-5.729A16,16,0,0,0,899.1,610a16.607,16.607,0,0,0-5.531-12.383A15.292,15.292,0,0,0,883,593.3C880.15,593.225,864,593.3,864,593.3Z" transform="translate(-824 -569)" fill="#fff" stroke="#e4e4e4" stroke-width="1"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" width="47" height="16" transform="translate(17 33)" fill="#d8d8d8"/>
+    <g id="Group_6" data-name="Group 6">
+      <circle id="Ellipse_8" data-name="Ellipse 8" cx="15" cy="15" r="15" transform="translate(7 26)" fill="#b0cbff"/>
+      <circle id="Ellipse_9" data-name="Ellipse 9" cx="13" cy="13" r="13" transform="translate(9 28)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="Group_5" data-name="Group 5">
+      <path id="Path_2" data-name="Path 2" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Z" transform="translate(43 26)" fill="#b0cbff"/>
+      <circle id="Ellipse_10" data-name="Ellipse 10" cx="13" cy="13" r="13" transform="translate(45 28)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>
