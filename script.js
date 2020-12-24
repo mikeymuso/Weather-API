@@ -92,13 +92,19 @@ unitToggle.addEventListener('change', () => {
 
 
 const runTime = () => {
-    setInterval(() => {
+    setTime = () => {
         const currtime = new Date();
         const hours = String(currtime.getHours()).padStart(2, '0');
         const minutes = String(currtime.getMinutes()).padStart(2, '0');
         const seconds = String(currtime.getSeconds()).padStart(2, '0');
         time.innerHTML = `${hours}:${minutes}:${seconds}`;
+    };
+
+    setInterval(() => {
+        setTime()
     }, 1000)
+
+    setTime();
 }
 
 const getWeatherGif = async (keyword) => {
