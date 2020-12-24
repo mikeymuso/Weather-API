@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <h1>Current Weather</h1>
+        <div id="search-form">
+            <input type="text" id="search-input" placeholder="Search Location">
+            <button id="search-btn">Search</button>
+        </div>
+        <h2 id="location">Loading...</h2>
+        <div id="icon-temp-container">
+            <img id="weather-icon" src="" alt="weather icon">
+            <p id="main-temp">13c</p>
+        </div>
+        <div id="temperatures">
+            <p>feelslike 10 | min 2 | max 14</p>
+        </div>
+        
+        <div id="desc-sun-container">
+            <div id="description">Description...</div>
+            <div id="sun">
+                <div>
+                    <img class="sun-icon" src="images/sunrise_icon.png" alt="sunrise">
+                    <p><span id="sunrise">12:00pm</span></p>
+                </div>
+                <div>
+                    <img class="sun-icon" src="images/sunset_icon.png" alt="sunset">
+                    <p><span id="sunset"></span></p>
+                </div>
+            </div>
+        </div>
+
+        <div id="time">
+            <p>12:00:00</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

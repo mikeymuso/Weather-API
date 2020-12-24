@@ -1,0 +1,20 @@
+<svg id="Group_3" data-name="Group 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Ellipse_2" data-name="Ellipse 2" fill="#fff" stroke="#a7c5ff" stroke-width="3">
+    <circle cx="40" cy="40" r="40" stroke="none"/>
+    <circle cx="40" cy="40" r="38.5" fill="none"/>
+  </g>
+  <ellipse id="Ellipse_3" data-name="Ellipse 3" cx="8" cy="8.5" rx="8" ry="8.5" transform="translate(14 33)" fill="#a7c5ff"/>
+  <circle id="Ellipse_4" data-name="Ellipse 4" cx="9" cy="9" r="9" transform="translate(25 26)" fill="#a7c5ff"/>
+  <circle id="Ellipse_5" data-name="Ellipse 5" cx="11.5" cy="11.5" r="11.5" transform="translate(39 25)" fill="#a7c5ff"/>
+  <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="4.5" cy="5" rx="4.5" ry="5" transform="translate(57 40)" fill="#a7c5ff"/>
+  <rect id="Rectangle_2" data-name="Rectangle 2" width="40" height="9" transform="translate(22 41)" fill="#a7c5ff"/>
+  <circle id="Ellipse_7" data-name="Ellipse 7" cx="40" cy="40" r="40" fill="url(#linear-gradient)">
+    <animateTransform attributeType="XML" attributeName="transform" type="rotate" from="0 40 40" to="360 40 40" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
