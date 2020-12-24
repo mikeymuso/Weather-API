@@ -15,7 +15,7 @@ const time = document.getElementById('time');
 
 // API INFO
 const apiKey = `73189ca6480d224ad3a389cea980e316`;
-const url = `http://api.openweathermap.org/data/2.5/weather`
+const url = `https://api.openweathermap.org/data/2.5/weather`
 
 
 // OPTIONS
